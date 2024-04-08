@@ -10,10 +10,10 @@ ______ _____ _____ _____    __
 import django
 
 __title__ = 'Django REST framework'
-__version__ = '3.12.4'
+__version__ = '3.15.1'
 __author__ = 'Tom Christie'
 __license__ = 'BSD 3-Clause'
-__copyright__ = 'Copyright 2011-2019 Encode OSS Ltd'
+__copyright__ = 'Copyright 2011-2023 Encode OSS Ltd'
 
 # Version synonym
 VERSION = __version__
@@ -29,9 +29,9 @@ if django.VERSION < (3, 2):
     default_app_config = 'rest_framework.apps.RestFrameworkConfig'
 
 
-class RemovedInDRF313Warning(DeprecationWarning):
+class RemovedInDRF315Warning(DeprecationWarning):
     pass
 
 
-class RemovedInDRF314Warning(PendingDeprecationWarning):
+class RemovedInDRF317Warning(PendingDeprecationWarning):
     pass
