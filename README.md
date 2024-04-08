@@ -17,3 +17,18 @@ Used technologies:
 - Django
 - React.js
 - Tailwind CSS
+
+## How to run server?
+
+Type:
+
+```bash
+cd backend
+python manage.py runserver
+```
+
+and go to development server:
+
+```bash
+http://127.0.0.1:8000/
+```
