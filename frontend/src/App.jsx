@@ -20,7 +20,7 @@ const RegisterAndLogout = () => {
 const App = () => {
   return (
     <BrowserRouter>
-      <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-loose">
+      <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-tight mb-2 pb-4">
         Full-stack Blog App
       </h1>
       <Routes>
