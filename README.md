@@ -18,6 +18,14 @@ Used technologies:
 - React.js
 - Tailwind CSS
 
+Front-end created with `Vite` tool
+
+Used also:
+
+- axios
+- react-router-dom
+- jwt-decode
+
 ## How to run server?
 
 Type:
