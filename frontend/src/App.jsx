@@ -33,6 +33,7 @@ const App = () => {
           }
         />
         <Route path="/login" element={<Login />} />
+        <Route path="/logout" element={<Logout />} />
         <Route path="/register" element={<RegisterAndLogout />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
