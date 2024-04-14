@@ -84,3 +84,9 @@ and go to development server:
 ```bash
 http://localhost:5173/
 ```
+
+## Source & inspired by
+
+[Tech With Tim](https://github.com/techwithtim/Django-React-Full-Stack-App)
+
+Additional funcionalities coded by [me](https://github.com/goldipl)
