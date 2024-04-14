@@ -40,3 +40,18 @@ and go to development server:
 ```bash
 http://127.0.0.1:8000/
 ```
+
+## How to run front-end section?
+
+Type:
+
+```bash
+cd frontend
+npm run dev
+```
+
+and go to development server:
+
+```bash
+http://localhost:5173/
+```
