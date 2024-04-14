@@ -1,4 +1,5 @@
 <p align="center">
+    <img src="./frontend/src/assets/django.svg" height="64"/>
     <img src="https://www.python.org/static/img/python-logo.png" height="64"/>
     <img src="./frontend/public/vite.svg" height="64"/>
     <img src="./frontend/src/assets/react.svg" height="64"/>
