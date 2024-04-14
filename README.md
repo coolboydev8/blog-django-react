@@ -32,23 +32,26 @@ Used also:
 - react-router-dom
 - jwt-decode
 
-## How to run back-end server?
+## How to run this full-stack app?
+
+- _<u>Firstly run back-end</u>_
 
 Type:
 
 ```bash
 ./env/Scripts/activate
+
 cd backend
 python manage.py runserver
 ```
 
-and go to development server:
+Development server will run at:
 
 ```bash
 http://127.0.0.1:8000/
 ```
 
-## How to run front-end section?
+- _<u>Secondly, run the front-end part using commands below_</u>
 
 Type:
 
