@@ -53,6 +53,13 @@ cd backend
 python manage.py runserver
 ```
 
+Remember to make migrations
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
 Development server will run at:
 
 ```bash
