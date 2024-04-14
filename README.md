@@ -28,7 +28,7 @@ Used also:
 - react-router-dom
 - jwt-decode
 
-## How to run server?
+## How to run back-end server?
 
 Type:
 
