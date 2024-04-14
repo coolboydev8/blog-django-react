@@ -26,7 +26,6 @@ Front-end part of this project was created with tool named:
 
 Used also:
 
-- axios
 - react-router-dom
 - jwt-decode
 
