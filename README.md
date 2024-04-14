@@ -1,5 +1,8 @@
 <p align="center">
     <img src="https://www.python.org/static/img/python-logo.png" height="64"/>
+    <img src="./frontend/public/vite.svg" height="64"/>
+</p>
+    <img src="./frontend/src/assets/react.svg" height="64"/>
 </p>
 
 <h1 align="center">Full-stack Blog App</h1>
