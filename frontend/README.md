@@ -1,6 +1,8 @@
 # Front-end part
 
-Project was created with `Vite` tool.
+Project was created with tool named:
+
+- Vite
 
 Used technologies:
 

@@ -18,7 +18,9 @@ Used technologies:
 - React.js
 - Tailwind CSS
 
-Front-end created with `Vite` tool
+Project was created with tool named:
+
+- Vite
 
 Used also:
 
