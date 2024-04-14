@@ -1,4 +1,13 @@
-# React + Vite
+# Front-end part
+
+Project was created with `Vite` tool.
+
+Used technologies:
+
+- React.js
+- Tailwind CSS
+
+## Additional info
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
