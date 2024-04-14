@@ -4,8 +4,7 @@ import Form from "../components/Form";
 const Login = () => {
   return (
     <div>
-      <h1 className="text-white text-3xl">Login Page</h1>
-      <Form route="/api/token/" method="login" />
+      <Form route="/api/token/" pagetype="login" />
     </div>
   );
 };

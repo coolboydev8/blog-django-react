@@ -33,24 +33,30 @@ const Form = ({ route, pagetype }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="">
-      <h1 className="">{name}</h1>
+    <form
+      onSubmit={handleSubmit}
+      className="flex flex-col justify-center items-center"
+    >
+      <h1 className="text-white text-2xl my-4">{name} Page</h1>
       <input
-        className=""
+        className="w-56 border-0 my-2 h-8 p-2 outline-none"
         type="text"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         placeholder="Username"
       />
       <input
-        className=""
+        className="w-56 border-0 mb-2 h-8 p-2 outline-none"
         type="password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
         placeholder="Password"
       />
       {loading && <Loading />}
-      <button className="" type="submit">
+      <button
+        className="w-56 text-white hover:text-purple-700 hover:bg-white border border-1 border-purple-200 h-10"
+        type="submit"
+      >
         {name}
       </button>
     </form>
