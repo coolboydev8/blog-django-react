@@ -6,6 +6,7 @@ import Register from "./pages/Register";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Page404 from "./pages/Page404";
+import Header from "./components/Header";
 
 const Logout = () => {
   localStorage.clear();
@@ -20,6 +21,7 @@ const RegisterAndLogout = () => {
 const App = () => {
   return (
     <BrowserRouter>
+      <Header />
       <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-tight mb-2 pb-4">
         Full-stack Blog App
       </h1>
