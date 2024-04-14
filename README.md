@@ -28,6 +28,7 @@ Front-end part of this project was created with tool named:
 
 Used also:
 
+- axios
 - react-router-dom
 - jwt-decode
 
@@ -36,6 +37,7 @@ Used also:
 Type:
 
 ```bash
+./env/Scripts/activate
 cd backend
 python manage.py runserver
 ```
