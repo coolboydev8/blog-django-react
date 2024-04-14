@@ -14,23 +14,29 @@ const Form = ({ route, pagetype }) => {
   const name = pagetype === "login" ? "Login" : "Register";
 
   const handleSubmit = async (e) => {
-    setLoading(true);
     e.preventDefault();
 
-    try {
-      const res = await api.post(route, { username, password });
-      if (pagetype === "login") {
-        localStorage.setItem(ACCESS_TOKEN, res.data.access);
-        localStorage.setItem(REFRESH_TOKEN, res.data.refresh);
-        navigate("/");
-      } else {
-        navigate("/login");
+    // Set loading to true immediately
+    setLoading(true);
+
+    // Delay execution for 2 seconds
+    setTimeout(async () => {
+      try {
+        const res = await api.post(route, { username, password });
+        if (pagetype === "login") {
+          localStorage.setItem(ACCESS_TOKEN, res.data.access);
+          localStorage.setItem(REFRESH_TOKEN, res.data.refresh);
+          navigate("/");
+        } else {
+          navigate("/login");
+        }
+      } catch (error) {
+        setError(error.message);
+      } finally {
+        // Set loading to false after the delay
+        setLoading(false);
       }
-    } catch (error) {
-      setError(error.message);
-    } finally {
-      setLoading(false);
-    }
+    }, 2000);
   };
 
   return (
