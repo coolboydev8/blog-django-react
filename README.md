@@ -34,7 +34,15 @@ Used also:
 
 ## How to run this full-stack app?
 
-- _<u>Firstly run back-end</u>_
+- _Firstly clone this project to your local IDE_
+
+Type:
+
+```bash
+git clone https://github.com/goldipl/Django-React-Blog.git
+```
+
+- _Secondly run back-end_
 
 Type:
 
@@ -51,12 +59,23 @@ Development server will run at:
 http://127.0.0.1:8000/
 ```
 
-- _<u>Secondly, run the front-end part using commands below_</u>
+- _Thridly, run the front-end part using commands below_
 
 Type:
 
 ```bash
 cd frontend
+```
+
+After it install all packages, typing:
+
+```bash
+npm i
+```
+
+Now you can run your front-end part typing:
+
+```bash
 npm run dev
 ```
 
