@@ -1,7 +1,18 @@
 import React from "react";
+import { ThreeCircles } from "react-loader-spinner";
 
 const Loading = () => {
-  return <p className="text-white mb-2">Loading...</p>;
+  return (
+    <ThreeCircles
+      visible={true}
+      height="100"
+      width="100"
+      color="#c0b2fa"
+      ariaLabel="three-circles-loading"
+      wrapperStyle={{}}
+      wrapperClass=""
+    />
+  );
 };
 
 export default Loading;

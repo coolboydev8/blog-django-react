@@ -31,6 +31,7 @@ Used also:
 - axios
 - react-router-dom
 - jwt-decode
+- react-loader-spinner
 
 ## How to run this full-stack app?
 
