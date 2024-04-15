@@ -93,6 +93,10 @@ and go to development server:
 http://localhost:5173/
 ```
 
+## Screenshots
+
+![screenshot](./screenshots/Screenshot01.jpg)
+
 ## Source & inspired by
 
 [Tech With Tim](https://github.com/techwithtim/Django-React-Full-Stack-App)
