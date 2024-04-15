@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import api from "../api";
+import Note from "../components/Note";
 
 function Home() {
   const [notes, setNotes] = useState([]);
@@ -51,8 +52,13 @@ function Home() {
 
   return (
     <div>
-      <div>
+      <div className="flex flex-col">
         <h2 className="text-purple-400 text-2xl my-4">Notes</h2>
+        <div className="flex flex-row flex-wrap items-center justify-center max-w-[880px] mx-auto">
+          {notes.map((note) => (
+            <Note note={note} onDelete={deleteNote} key={note.id} />
+          ))}
+        </div>
       </div>
       <h2 className="text-white text-2xl my-4">Create a Note</h2>
       <form onSubmit={createNote}>
