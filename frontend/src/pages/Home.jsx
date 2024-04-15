@@ -52,7 +52,7 @@ function Home() {
 
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start">
-      <div className="flex flex-col me-0 lg:me-8">
+      <div className="flex flex-col me-0 lg:me-8 lg:border-r-2 lg:border-pink-300 lg:pe-10 lg:pb-10">
         <h2 className="text-purple-400 text-2xl my-4">Create a Note</h2>
         <form onSubmit={createNote}>
           <div className="flex flex-col items-center justify-center">
