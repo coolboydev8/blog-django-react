@@ -56,11 +56,11 @@ function Home() {
         <h2 className="text-purple-400 text-2xl my-4">Create a Note</h2>
         <form onSubmit={createNote}>
           <div className="flex flex-col items-center justify-center">
-            <label htmlFor="title" className="text-white text-md">
+            <label htmlFor="title" className="text-white text-md mb-1">
               Title:
             </label>
             <input
-              className="w-64 border-0 mb-2 h-8 p-2 outline-none"
+              className="w-64 border-0 mb-2 h-8 p-2 outline-none text-sm"
               type="text"
               id="title"
               name="title"
@@ -70,11 +70,11 @@ function Home() {
             />
           </div>
           <div className="flex flex-col items-center justify-center">
-            <label htmlFor="content" className="text-white text-md">
+            <label htmlFor="content" className="text-white text-md mb-1">
               Content:
             </label>
             <textarea
-              className="w-64 border-0 mb-2 h-32 p-2 outline-none"
+              className="w-64 border-0 mb-3 h-32 p-2 outline-none text-sm"
               id="content"
               name="content"
               required
@@ -85,7 +85,7 @@ function Home() {
           <input
             type="submit"
             value="Submit"
-            className="w-64 text-white hover:text-purple-700 hover:bg-white border border-1 border-purple-200 h-10 cursor-pointer"
+            className="w-64 text-white hover:text-purple-700 hover:bg-white border border-1 border-purple-200 h-10 cursor-pointer text-sm"
           ></input>
         </form>
       </div>
