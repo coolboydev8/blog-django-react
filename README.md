@@ -96,6 +96,7 @@ http://localhost:5173/
 ## Screenshots
 
 ![screenshot](./screenshots/Screenshot01.jpg)
+![screenshot](./screenshots/Screenshot02.jpg)
 
 ## Source & inspired by
 
