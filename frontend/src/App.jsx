@@ -22,7 +22,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header />
-      <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-tight mb-2 pb-4">
+      <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-tight mb-2 pb-4">
         Full-stack Blog App
       </h1>
       <Routes>
