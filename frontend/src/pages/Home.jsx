@@ -52,15 +52,18 @@ function Home() {
 
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start">
-      <div className="flex flex-col me-0 lg:me-8 lg:border-r-2 lg:border-pink-300 lg:pe-10 lg:pb-10">
-        <h2 className="text-purple-400 text-2xl my-4">Create a Note</h2>
-        <form onSubmit={createNote}>
+      <div className="flex flex-col w-[92%] lg:w-64 me-0 lg:me-8 lg:border-r-2 lg:border-pink-300 lg:pe-10 lg:pb-10">
+        <h2 className="text-purple-400 text-2xl mb-4">Create a Note</h2>
+        <form
+          onSubmit={createNote}
+          className="flex flex-col items-center justify-center"
+        >
           <div className="flex flex-col items-center justify-center">
             <label htmlFor="title" className="text-white text-md mb-1">
               Title:
             </label>
             <input
-              className="w-64 border-0 mb-2 h-8 p-2 outline-none text-sm"
+              className="w-full lg:w-64 border-0 mb-2 h-8 p-2 outline-none text-sm"
               type="text"
               id="title"
               name="title"
@@ -74,7 +77,7 @@ function Home() {
               Content:
             </label>
             <textarea
-              className="w-64 border-0 mb-3 h-32 p-2 outline-none text-sm"
+              className="w-full lg:w-64 border-0 mb-3 h-32 p-2 outline-none text-sm"
               id="content"
               name="content"
               required
@@ -85,13 +88,13 @@ function Home() {
           <input
             type="submit"
             value="Submit"
-            className="w-64 text-white hover:text-purple-700 hover:bg-white border border-1 border-purple-200 h-10 cursor-pointer text-sm"
+            className="w-full lg:w-64 text-white hover:text-purple-700 hover:bg-white border border-1 border-purple-200 h-10 cursor-pointer text-sm"
           ></input>
         </form>
       </div>
       <div className="flex flex-col">
         <h2 className="text-purple-400 text-2xl my-4">Notes</h2>
-        <div className="flex flex-row flex-wrap items-center justify-center max-w-[880px] mx-auto">
+        <div className="flex flex-row flex-wrap items-start justify-center max-w-[880px] mx-auto">
           {notes.map((note) => (
             <Note note={note} onDelete={deleteNote} key={note.id} />
           ))}

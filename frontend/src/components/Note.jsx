@@ -4,7 +4,7 @@ const Note = ({ note, onDelete }) => {
   const formattedDate = new Date(note.created_at).toLocaleDateString("en-US");
 
   return (
-    <div className="flex flex-col justify-center items-center border border-1 border-purple-300 p-4 m-2 max-w-96">
+    <div className="flex flex-col justify-center items-center border border-1 border-purple-300 p-4 m-2 w-[92%] lg:max-w-96">
       <p className="text-white text-lg my-2 font-bold ms-0 me-auto underline underline-offset-2 text-left">
         {note.title}
       </p>

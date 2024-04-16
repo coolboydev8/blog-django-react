@@ -9,7 +9,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="p-4 bg-[#c0b2fa79] mt-24">
+    <div className="p-4 bg-[#c0b2fa79] mt-16 fixed bottom-0 left-0 w-full">
       <p className="text-white text-sm">Full-stack Blog App © {actualYear}</p>
     </div>
   );

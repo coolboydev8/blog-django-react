@@ -44,7 +44,7 @@ const Form = ({ route, pagetype }) => {
       onSubmit={handleSubmit}
       className="flex flex-col justify-center items-center"
     >
-      <h1 className="text-white text-2xl my-4">{name} Page</h1>
+      <h1 className="text-white text-2xl mb-4">{name} Page</h1>
       <input
         className="w-56 border-0 my-2 h-8 p-2 outline-none"
         type="text"
