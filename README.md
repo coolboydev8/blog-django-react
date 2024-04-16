@@ -31,6 +31,7 @@ Used also:
 - react-router-dom
 - jwt-decode
 - react-loader-spinner
+- react-tag-input-component
 
 ## How to run this full-stack app?
 
