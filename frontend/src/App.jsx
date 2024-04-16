@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Page404 from "./pages/Page404";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const Logout = () => {
   localStorage.clear();
@@ -39,6 +40,7 @@ const App = () => {
         <Route path="/register" element={<RegisterAndLogout />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
