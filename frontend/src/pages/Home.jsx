@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import api from "../api";
 import Note from "../components/Note";
+import TagsComponent from "../components/TagsComponent";
 
 function Home() {
   const [notes, setNotes] = useState([]);
@@ -91,6 +92,7 @@ function Home() {
               onChange={(e) => setContent(e.target.value)}
             ></textarea>
           </div>
+          <TagsComponent />
           <input
             type="submit"
             value="Submit"
