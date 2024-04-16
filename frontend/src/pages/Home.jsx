@@ -58,11 +58,8 @@ function Home() {
           onSubmit={createNote}
           className="flex flex-col items-center justify-center"
         >
-          <div className="flex flex-col items-left justify-center">
-            <label
-              htmlFor="title"
-              className="text-white text-md mb-1 text-left"
-            >
+          <div className="flex flex-col items-center justify-center">
+            <label htmlFor="title" className="text-white text-md mb-1">
               Title:
             </label>
             <input
@@ -75,11 +72,8 @@ function Home() {
               value={title}
             />
           </div>
-          <div className="flex flex-col items-left justify-center">
-            <label
-              htmlFor="content"
-              className="text-white text-md mb-1 text-left"
-            >
+          <div className="flex flex-col items-center justify-center">
+            <label htmlFor="content" className="text-white text-md mb-1">
               Content:
             </label>
             <textarea
