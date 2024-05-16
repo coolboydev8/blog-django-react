@@ -47,10 +47,10 @@ git clone https://github.com/goldipl/Django-React-Blog.git
 Type:
 
 ```bash
-./env/Scripts/activate
-
+python3 -m venv venv
+venv/Scripts/activate (if doesnt work on windows: Set-ExecutionPolicy Unrestricted -Scope Process)
 cd backend
-python manage.py runserver
+pip install -r requirements.txt
 ```
 
 Remember to make migrations
@@ -60,13 +60,19 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+start backend:
+
+```bash
+python manage.py runserver
+```
+
 Development server will run at:
 
 ```bash
 http://127.0.0.1:8000/
 ```
 
-- _Thridly, run the front-end part using commands below_
+- _Thirdly, split terminal, change direction to frontend and run the front-end part using commands below_
 
 Type:
 
