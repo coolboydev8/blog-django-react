@@ -38,10 +38,6 @@ Used also:
 
 Type:
 
-```bash
-git clone https://github.com/goldipl/Django-React-Blog.git
-```
-
 - _Secondly run back-end_
 
 Type:
